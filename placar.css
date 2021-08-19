@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 176, 166);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  width: 100%;
+  padding: 0;
+  max-width: 1000px;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 10px;  
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.div {
+  background-color: rgb(111, 96, 83);
+  width: 900px;
+  height: 500px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0 auto;
+ 
+}
+
+.placar {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+.placarValor {
+  background-color: black;
+  color:   #ccbc93;
+  text-align: center;
+  width: 100%;
+  padding: 0 auto;
+  border-radius: 10px;
+  width: 60px;
+  height: 30px;
+}
+
+.infoText {
+  text-align: right;
+}
+
+.btns {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 24px;
+  background: #ccbc93;
+  border-radius: 10px 20px;
+}
+
+.btns:hover{
+  background-color: #ae8c59;
+}
+.efeito {
+  align-items: center;
+  border: none;
+  color: #1c1919;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+  background-color:#ccbc93;
+ }
+.efeito-1:hover {
+  background-color:  #ae8c59;   
+ }
+
+ .max-width {
+  max-width: 900px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 0%;
+  background-color: rgb(111, 96, 83);
+  box-shadow: 0 0 5px  rgb(221, 216, 212);
+  text-align: center;
+}
+/*contador 00:00:00*/
+h1 { 
+  margin-top: 20px;
+  letter-spacing: 10px; 
+}
+
+
+
+

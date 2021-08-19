@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar de Jogo</title>
+    <script src="placarjogo.js"></script>
+    <link rel="stylesheet" href="placar.css">
+    <img >
+</head>
+<body>
+    
+    
+    <div  class="div">
+        <h3>PLACAR</h3>
+        
+        <div class="placar">
+            <input type="text" class = "btns" name="jogador1" id="jogador1">
+ 
+            <input type="button" class = "placarValor" name="placar1" id="placar1" value="0">
+            <input type="button" class = "placarValor" name="placar2" id="placar2" value="0">
+ 
+            <input type="text" class = "btns" name="jogador2" id="jogador2" class="infoText"><br><br>
+ 
+            <input type="button" class = "efeito efeito-1" value="Somar Esquerda" onclick="somarEsquerda();">
+            <input type="button" class = "efeito efeito-1" value="Somar Direita"  onclick="somarDireita();"> <br><br>
+ 
+            <input type="button" class = "efeito efeito-1" value="Diminuir Esquerda" onclick="diminuirEsquerda()">
+            <input type="button" class = "efeito efeito-1" value="Diminuir Direita" onclick="diminuirDireita()"><br><br>
+ 
+            <input type="button" class = "efeito efeito-1" value="Trocar Lados" onclick="trocarLados()"><br><br>
+ 
+            <input type="button" class = "efeito efeito-1" value="Limpar Placar" onclick="limparCampos()"><br><br>
+            
+         </div>
+        
+         <div class="max-width">
+            <input type="button"  class = "efeito efeito-1" value="Iniciar Contador" onclick="iniciar()">
+            <input type="button"  class = "efeito efeito-1" value="Pausar Contador" onclick="pausar()">
+            <input type="button"  class = "efeito efeito-1" value="Limpar Contador" onclick="limpar()">
+            
+            <h1 id="contador">00:00:00</h1>
+        </div>
+
+    </div>   
+        
+    
+</body>
+</html>
